@@ -1,0 +1,12 @@
+/*
+# the commented lines are for varnish repo when push need to uncomment it
+!/app
+/app/*
+!/app/design/frontend/TM
+#!/lib
+!/skin
+/skin/*
+!/skin/frontend/TM
+!/js
+!.gitignore
+/app/etc/local.xml
