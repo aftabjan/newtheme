@@ -2,11 +2,17 @@
 # the commented lines are for varnish repo when push need to uncomment it
 !/app
 /app/*
+!/app/design
+/app/design/*
+!/app/design/frontend
+/app/design/frontend/*
 !/app/design/frontend/TM
 #!/lib
 !/skin
 /skin/*
-!/skin/frontend/TM
+!/skin/frontend
+/skin/frontend/*
+!skin/frontend/TM
 !/js
 !.gitignore
 /app/etc/local.xml
